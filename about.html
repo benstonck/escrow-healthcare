@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Escrow-HealthCare</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/debug.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+            <div class="container">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <div class="border-end border-primary pe-3">
+                                <a href="#" class="text-muted small "><i class="fas fa-map-marker-alt icon-color-red me-2"></i><span class="text-font-color">United Arab Emirates</span></a>
+                            </div>
+                            <div class="ps-3">
+                                <a href="mailto:admin@escrow-healthcare.com" class="text-muted small"><i class="fas fa-envelope icon-color-red me-2"></i><span class="text-font-color">admin@escrow-healthcare.com</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex justify-content-end">
+                            <div class="d-flex border-end border-primary pe-3">
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 icon-color-red me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light"> 
+                    <a href="#" class="navbar-brand p-0">
+                          <img src="img/escrow.png" class="escrow-logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-0 mx-lg-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link active">About</a>
+                            <div class="nav-item dropdown">
+                                <a href="service.html" class="nav-link">Services</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                                <div class="dropdown-menu">
+                                    <a href="data-security.html" class="dropdown-item">Infrastructure & Data Security</a>
+                                    <a href="aconting-management.html" class="dropdown-item">Aconting Management</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <div class="nav-btn px-3">
+                                <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                        <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
+                            <i class="fa fa-phone-alt fa-2x"></i>
+                            <div class="position-absolute" style="top: 7px; right: 12px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a>
+                        <div class="d-flex flex-column ms-3">
+                            <span>Call to Our Experts</span>
+                            <a href="tel:+ +971 502 664 656"><span class="text-dark">Free: +971 502 664 656</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb-about">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">About</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+          <!-- About Start -->
+        <div class="container-fluid bg-light mt-5 about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-item-content bg-white rounded p-5 h-100">
+                            <h4 class="text-primary">About Our Company</h4>
+                            <!-- <h1 class="display-4 mb-4">Your Financial Ally.</h1> -->
+                            <p class="align-font-css">Escrow Healthcare is dedicated to empowering healthcare providers across the Middle East with reliable, data-driven revenue cycle and administrative solutions. From accurate medical billing and coding to denial management and reconciliation, we help clinics, hospitals, and specialty practices streamline operations, accelerate reimbursements, and maintain full compliance with regional regulatory standards. Our expert team combines deep industry knowledge with advanced technology to deliver services that free up your staff to focus on what matters most — exceptional patient care.<br>
+                            At Escrow Healthcare, we simplify complex billing and revenue processes so healthcare professionals can focus on patients, not paperwork. Serving clinics, hospitals, and specialty practices across the UAE and Middle East, we provide tailored medical billing, coding, and revenue cycle management services. Our goal is to optimize your reimbursements, reduce denials, and build a solid financial foundation for sustainable growth.<br>
+                            At Escrow, we help healthcare providers achieve financial clarity and operational excellence. Our tailored Revenue Cycle Management (RCM) solutions cover every aspect of medical billing, coding, denial management, and reconciliation — enabling hospitals, clinics, and specialty centers to focus on patient care while we handle the complexities of your revenue operations.
+                            </p>
+                            <!-- <a class="btn btn-primary rounded-pill py-3 mt-5 px-5" href="#">More Information</a> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-white rounded p-5 h-100">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-12">
+                                    <div class="rounded bg-light">
+                                        <img src="img/about.png" class="img-fluid rounded w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="counter-item bg-light rounded p-3 h-100">
+                                        <div class="counter-counting">
+                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">129</span>
+                                            <span class="h1 fw-bold text-primary">+</span>
+                                        </div>
+                                        <h4 class="mb-0 text-dark">Insurance Policies</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="counter-item bg-light rounded p-3 h-100">
+                                        <div class="counter-counting">
+                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">99</span>
+                                            <span class="h1 fw-bold text-primary">+</span>
+                                        </div>
+                                        <h4 class="mb-0 text-dark">Awards WON</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="counter-item bg-light rounded p-3 h-100">
+                                        <div class="counter-counting">
+                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">556</span>
+                                            <span class="h1 fw-bold text-primary">+</span>
+                                        </div>
+                                        <h4 class="mb-0 text-dark">Skilled Agents</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="counter-item bg-light rounded p-3 h-100">
+                                        <div class="counter-counting">
+                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">967</span>
+                                            <span class="h1 fw-bold text-primary">+</span>
+                                        </div>
+                                        <h4 class="mb-0 text-dark">Team Members</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+         <!-- About Start new -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/about-1.jpg" alt="">
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/about-2.jpg" alt="" style="margin-top: -25%;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <!-- <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p> -->
+                    <h1 class="mb-4 text-primary"> Trust Us – Get to Know Us!</h1>
+                    <p class="align-font-css">Founded by healthcare and finance specialists, Escrow Healthcare is a trusted partner for providers looking to maximize operational efficiency and revenue integrity. We bring together years of hands-on experience, deep knowledge of UAE and GCC regulations, and cutting-edge technology to help organizations achieve better cash flow, fewer claim rejections, and higher productivity.<br><br>
+                    Our philosophy is simple: streamline processes, uphold compliance, and empower providers with the insights they need to thrive in a fast-changing healthcare environment.
+                    </p>
+                    <!-- <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p> -->
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End new-->
+
+     <!-- Service Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h2 class="text-primary">Why Choose Escrow Healthcare</h2>
+                    <!-- <h1 class="display-4">Revenue Cycle Management</h1>
+                    <h3 class="display-4">Healthcare Audits</h3> -->
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a class="h5 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-1x me-2"></i>Local Expertise </a>
+                                    <p class="mb-4">We understand the intricacies of UAE and GCC insurance systems and regulatory frameworks.
+                                    </p>
+                                    <a class="btn  rounded-pill py-2 px-4" href="healthcare.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img src="img/Accuracy & Efficiency.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a class="h5 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-1x me-2"></i>Accuracy & Efficiency </a>
+                                    <p class="mb-4">Proven workflows that minimize errors and accelerate reimbursements.
+                                    </p>
+                                    <a class="btn  rounded-pill py-2 px-4" href="healthcare.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img src="img/insight.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a class="h5 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-1x me-2"></i>Tech Insights </a>
+                                    <p class="mb-4">Advanced reporting tools to give you visibility over cash flow and denials.
+                                    </p>
+                                    <a class="btn rounded-pill py-2 px-4" href="healthcare.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img src="img/service-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a class="h5 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-1x me-2"></i>Client First </a>
+                                    <p class="mb-4">We partner closely with your team, offering clear communication and measurable results.
+                                    </p>
+                                    <a class="btn  rounded-pill py-2 px-4" href="healthcare.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Who We Are Start -->
+
+         <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="about-img-111" src="img/who-we-are.jpeg" alt="who we are">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <!-- <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p> -->
+                    <h1 class="mb-4 text-primary">WHO WE ARE</h1>
+                    <p class="align-font-css">Escrow Healthcare was founded in 2016 by a peer group of leaders in the healthcare industry. We are a company driven by innovation in healthcare and our vision is to build enduring partnerships across the industry. Our transparent analysis and true thought partnership helped us to position ourselves among credible strategic partners creating the most challenging situations into possibilities. Our regional presence allows us to effectively communicate with our clients, process their claims, and resolve their issues within the stipulated time.<br><br>
+                    Our primary goal is to determine an organization's requirements to manage its physical assets and facilities process on an optimum level. We are also well versed in revenue cycle management which clients ranging from hospitals and clinics in the region which helps us to create a win-win model of people process and product models.<br><br>
+                    Today, we proudly assert that Escrow has not only been able to efficiently handle the insurance claims submission of its clients but also improve the systems of their internal units that handle insurance patients.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Who We Are Start -->
+
+     <!-- Our Vision Start -->
+        <div class="container-fluid blog mb-5">
+            <div class="container ">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary mb-4">Our Vision & Our Goals</h4>
+                    <h5 class="mb-0">Our vision and goals are to empower healthcare providers with innovative RCM solutions that boost financial efficiency, ensure compliance, and enable greater focus on patient care.
+                    </h5>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 col-xl- wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/vision.jpg" class="img-fluid rounded-top w-100" alt="">
+                                <div class="blog-categiry py-2 px-4">
+                                    <span>Our Vission</span>
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">                           
+                                <p class="mb-3">To enhance and deliver effective and efficient revenue cycle management services specifically tailored to each client's specific need with the latest industry technology and our diligent team members with compliance to the regulations of the health authority &insurance companies.</p>
+                                <a href="digitalmarketing.html" class="btn readmore-icon">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl- wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/our-goal.jpeg" class="img-fluid rounded-top w-100" alt="">
+                                <div class="blog-categiry py-2 px-4">
+                                    <span>Our Goals</span>
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <p class="mb-3">To orchestrate a seamless customer experience that results in long-term and rewarding customer relationships. To diversify ourselves to other areas of healthcare to reignite growth.
+                               <b> “We believe trust and commitment towards our valued clients shape the foundation of our relationship hence we always strive to strengthen it by exceeding their expectations”</p>
+                                <a href="healthcare.html" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Vision End -->
+
+     <!-- Footer Start -->
+        <div class="container-fluid footer  wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-10">
+                        <div class="mb-5">
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-5 ">
+                                    <div class="footer-item">
+                                        <a href="index.html" class="p-0">
+                                            <img src="img/escrow.png" class="escrow-logo" alt="Logo">
+                                        </a>
+                                        <p class="text-white mb-4">Empowering Healthcare Providers with Smarter Revenue Solutions.<br>Trusted Partner for Innovative Healthcare Solutions in the Middle East</p>
+                                        <div class="footer-btn d-flex">
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-3">
+                                    <div class="footer-item">
+                                        <h4 class="text-white mb-4">Useful Links</h4>
+                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
+                                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                                        <a href="rcmsloution.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-3">
+                                    <div class="footer-item">
+                                        <h4 class="mb-4 text-white">Gallery</h4>
+                                        <div class="row g-3">
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-1.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-1.jpg" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                           <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-2.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-2.jpg" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-3.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-3.jpg" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-4.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-4.jpg" data-lightbox="footerInstagram-4" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-5.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-5.jpg" data-lightbox="footerInstagram-5" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                           <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-6.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-6.jpg" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.08);">
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6 col-xl-4">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Address</h4>
+                                                    <p class="mb-0">P.O. Box: 11711, Dubai, U.A.E.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-4">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fas fa-envelope fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Mail Us</h4>
+                                                    <p class="m-0 ">admin@escrow-healthcare.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-4 ">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fa fa-phone-alt fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Telephone</h4>
+                                                    <p class="mb-0">+971 502 664 656</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Opening Hours</h4>
+                            <table class="Opening-hours  ">
+                                <tbody class="font-weight-normal">
+                                    <tr>
+                                        <td>Monday to Saturday</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Time: 8:30 to 5:30</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Sunday - Leave</td>
+                                      </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 text-center">
+                        <span class="copey-right">Copyright <i class="fas fa-copyright me-2"></i>2025 Escrow-Healthcare. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <div id="whatsapp">
+            <a href="https://wa.me/+971502664656" target="_blank" class="wtsapp"><i class="orangr-whatsup-icon bi bi-whatsapp"></i></a> 
+       </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

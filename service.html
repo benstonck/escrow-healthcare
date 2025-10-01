@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Escrow-HealthCare</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+ 
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/debug.css" rel="stylesheet"/>
+    </head>
+      <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+            <div class="container">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <div class="border-end border-primary pe-3">
+                                <a href="#" class="text-muted small "><i class="fas fa-map-marker-alt icon-color-red me-2"></i><span class="text-font-color">United Arab Emirates</span></a>
+                            </div>
+                            <div class="ps-3">
+                                <a href="mailto:admin@escrow-healthcare.com" class="text-muted small"><i class="fas fa-envelope icon-color-red me-2"></i><span class="text-font-color">admin@escrow-healthcare.com</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex justify-content-end">
+                            <div class="d-flex border-end border-primary pe-3">
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn p-0 icon-color-red me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 icon-color-red me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light"> 
+                    <a href="#" class="navbar-brand p-0">
+                          <img src="img/escrow.png" class="escrow-logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-0 mx-lg-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link ">About</a>
+                             <div class="nav-item dropdown">
+                                <a href="service.html" class="nav-link active">Services</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                                <div class="dropdown-menu">
+                                    <a href="data-security.html" class="dropdown-item">Infrastructure & Data Security</a>
+                                    <a href="aconting-management.html" class="dropdown-item">Aconting Management</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <div class="nav-btn px-3">
+                                <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                        <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
+                            <i class="fa fa-phone-alt fa-2x"></i>
+                            <div class="position-absolute" style="top: 7px; right: 12px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a>
+                        <div class="d-flex flex-column ms-3">
+                            <span>Call to Our Experts</span>
+                            <a href="tel:+ +971 502 664 656"><span class="text-dark">Free: +971 502 664 656</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">Services</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Service Start -->
+
+        <div class="container-xxl py-5 mb-5">
+        <div class="container">
+             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h2 class="text-primary mb-4">Our Services</h2>
+                    <h5 class="mb-0">We offer a full suite of solutions designed to keep your revenue cycle running smoothly:
+                    </h5>
+                </div>
+            <!-- <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-primary mb-5">Our Services</p>
+                <p class="mb-0">We offer a full suite of solutions designed to keep your revenue cycle running smoothly:</p>
+            </div> -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/victory-icon/billing.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Medical Billing & Claims Submission </h4>
+                            <p class="mb-0">Accurate, timely, and DHA-compliant billing to reduce payment delays.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="rcmsloution.html">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/victory-icon/medical.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Medical Coding </h4>
+                            <p class="pb-2">Expert coding aligned with the latest standards to ensure proper reimbursement.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="rcmsloution.html">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/victory-icon/change-management.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Denial Management & Reconciliation</h4>
+                            <p class="mb-0">Proactive tracking, root-cause analysis, and recovery of unpaid claims.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="rcmsloution.html">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/victory-icon/price-list.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-4">Pricelist Mapping & Insurance Liaison </h4>
+                            <p class="mb-0">Seamless alignment between service pricing and payer agreements.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="rcmsloution.html">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/victory-icon/interview.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-4">Consulting & Audit Support  </h4>
+                            <p class="pb-2">Guidance to improve compliance, documentation, and financial outcomes.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="rcmsloution.html">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+     <!-- Accounting Consultancy Start -->
+             <div class="container mb-5">
+                <div class="row justify-content-center">
+                  <div class="col-md-8">
+                    <h1 class="text-primary text-center">Empowering Healthcare Providers for Financial Excellence</h1>
+                    <div class="d-flex mb-4 pt-5">
+                      <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
+                        <i class="fa fa-check"></i>
+                      </div>
+                      <div class="ms-4">
+                        <h5>TRANSFORMING HEALTHCARE THROUGH PEOPLE PROCESS AND TECHNOLOGY</h5>
+                        <p class="mb-0">Creating a personalized equation between people & process driven by technology for better operational outcomes.</p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4 ">
+                        <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
+                          <i class="fa fa-check"></i>
+                        </div>
+                        <div class="ms-4">
+                          <h5>INSURANCE CLAIMS REVENUE MULTIPLIED AT THE HANDS OF EXPERTS</h5>
+                          <p class="mb-0">Improve your medical billing & reduce your claim denials with out cost-effective and reliable RCM services</p>
+                        </div>
+                      </div>
+                      <div class="d-flex mb-4 ">
+                        <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
+                          <i class="fa fa-check"></i>
+                        </div>
+                        <div class="ms-4">
+                          <h5>BOOST YOUR HEALTHCARE REVENUE CYCLE MANAGEMENT</h5>
+                          <p class="mb-0">Maximize revenue while delivering quality medical care</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Accounting Consultancy End -->
+
+
+     <!-- Footer Start -->
+        <div class="container-fluid footer  wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-10">
+                        <div class="mb-5">
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-5 ">
+                                    <div class="footer-item">
+                                        <a href="index.html" class="p-0">
+                                            <img src="img/escrow.png" class="escrow-logo" alt="Logo">
+                                        </a>
+                                        <p class="text-white mb-4">Empowering Healthcare Providers with Smarter Revenue Solutions.<br>Trusted Partner for Innovative Healthcare Solutions in the Middle East</p>
+                                        <div class="footer-btn d-flex">
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-3">
+                                    <div class="footer-item">
+                                        <h4 class="text-white mb-4">Useful Links</h4>
+                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
+                                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                                        <a href="rcmsloution.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-3">
+                                    <div class="footer-item">
+                                        <h4 class="mb-4 text-white">Gallery</h4>
+                                        <div class="row g-3">
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-1.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-1.jpg" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                           <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-2.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-2.jpg" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-3.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-3.jpg" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-4.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-4.jpg" data-lightbox="footerInstagram-4" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                            <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-5.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-5.jpg" data-lightbox="footerInstagram-5" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                           <div class="col-4">
+                                                <div class="footer-instagram rounded">
+                                                    <img src="img/instagram-footer-6.jpg" class="img-fluid w-100" alt="">
+                                                    <div class="footer-search-icon">
+                                                        <a href="img/instagram-footer-6.jpg" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.08);">
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6 col-xl-4">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Address</h4>
+                                                    <p class="mb-0">P.O. Box: 11711, Dubai, U.A.E.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-4">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fas fa-envelope fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Mail Us</h4>
+                                                    <p class="m-0 ">admin@escrow-healthcare.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-4 ">
+                                            <div class="d-flex">
+                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                    <i class="fa fa-phone-alt fa-2x"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white">Telephone</h4>
+                                                    <p class="mb-0">+971 502 664 656</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Opening Hours</h4>
+                            <table class="Opening-hours  ">
+                                <tbody class="font-weight-normal">
+                                    <tr>
+                                        <td>Monday to Saturday</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Time: 8:30 to 5:30</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Sunday - Leave</td>
+                                      </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 text-center">
+                        <span class="copey-right">Copyright <i class="fas fa-copyright me-2"></i>2025 Escrow-Healthcare. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <div id="whatsapp">
+            <a href="https://wa.me/+971502664656" target="_blank" class="wtsapp"><i class="orangr-whatsup-icon bi bi-whatsapp"></i></a> 
+       </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
