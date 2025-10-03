@@ -518,7 +518,7 @@
 .bg-breadcrumb-about {
      position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/about-img-3.jpg);
+    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/services.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -539,6 +539,27 @@
     transition: 0.5s;
 }
 
+.bg-breadcrumb-data {
+     position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/background-banner-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+    transition: 0.5s;
+}
+.bg-breadcrumb-aconting {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/security.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+    transition: 0.5s;
+}
+
 .rcm-banner {
     position: relative;
     overflow: hidden;
@@ -551,29 +572,28 @@
     transition: 0.5s;
 }
 
-.Digital-marketing {
+/* .Digital-marketing {
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/digital-marketing.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding: 60px 0 60px 0; */
     padding: 170px;
     transition: 0.5s;
-}
+} */
 
-.healthcare-audit {
+/* .healthcare-audit {
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/new-img/audit.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding: 60px 0 60px 0; */
+    padding: 60px 0 60px 0;
     padding: 170px;
     transition: 0.5s;
-}
+} */
 
 .contact-banner {
     position: relative;
