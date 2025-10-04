@@ -219,3 +219,9 @@
 p{
     color: black;
 }
+.para-hover{
+    color: black;
+}
+.para-hover:hover{
+    color: var(--bs-white) !important;
+}
