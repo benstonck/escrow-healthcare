@@ -216,3 +216,6 @@
   filter: brightness(0.7);
   z-index: -1; 
 }
+p{
+    color: black;
+}
