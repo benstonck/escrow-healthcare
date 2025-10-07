@@ -216,12 +216,3 @@
   filter: brightness(0.7);
   z-index: -1; 
 }
-p{
-    color: black;
-}
-.para-hover{
-    color: black;
-}
-.para-hover:hover{
-    color: var(--bs-white) !important;
-}
