@@ -154,7 +154,7 @@
     display: flex;
     align-items: center;
     padding: 15px;
-    white-space: nowrap; 
+      white-space: nowrap; 
 }
 
 .navbar-light .navbar-nav .nav-item:hover,
@@ -223,8 +223,8 @@
     }
 
     .navbar .nav-btn {
-        display: flex;
-        align-items: center;
+       display: flex;
+        align-items: center; 
         justify-content: end;
     }
 
